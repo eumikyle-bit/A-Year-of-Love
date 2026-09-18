@@ -159,8 +159,10 @@ ul {
 
 /* Pictures */
 .Pictures img {
-    width: 300px;
-    height: auto;
+    width: 320px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .Pictures {
